@@ -95,3 +95,13 @@ ul {
 .promotion {
     width: 100%;
 }
+
+/* .breakfast-lunch-menu {
+    display: grid; 
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+}
+
+.item3 {
+    grid-column: 1/ span 2; 
+} */
