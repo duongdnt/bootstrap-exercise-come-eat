@@ -13,24 +13,26 @@
 
 <body>
     <!-- navigation bar -->
-    <ul class="nav d-flex justify-content-end flex-row">
-        <a class="navbar-brand mr-auto" href="#">Logo</a>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Menu</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Gallery</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-        </li>
-    </ul>
+    <div id = "nav-bar">
+        <ul class="nav d-flex justify-content-end flex-row">
+            <a class="navbar-brand mr-auto" href="#">Logo</a>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Menu</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Gallery</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+            </li>
+        </ul>
+    </div>
     <!-- component hero page -->
     <div class="hero-text d-flex flex-column justify-content-start">
         <p>don't <br> eat less. <br> just <br> eat real.</p>
@@ -161,130 +163,232 @@
     <!-- components promotion -->
     <div class="promotion d-flex flex-column flex-md-row flex-lg-row p-4 justify-content-center align-items-center">
         <div><img src="assets/images/promo-1.png" class="p-3 img-fluid max-width: 100% height: auto"></div>
-        <div><img src="assets/images/promo-2.png" class="p-3 img-fluid max-width: 100% height: auto"></div>        
-        <div><img src="assets/images/promo-3.png" class="p-3 img-fluid max-width: 100% height: auto"></div>    
+        <div><img src="assets/images/promo-2.png" class="p-3 img-fluid max-width: 100% height: auto"></div>
+        <div><img src="assets/images/promo-3.png" class="p-3 img-fluid max-width: 100% height: auto"></div>
     </div>
 
     <!-- component breakfast and lunch -->
     <div class="breakfast-lunch-menu container">
         <div class="row row-cols-1 row-cols-sm-2">
-        <div class="px-4 col">
-            <div class="menu-line d-flex flex-row flex-wrap">
-                <p class="name-dish">GARLIC SHRIMP & TONNARELLI PASTA</p>
-                <div class="flex-grow-1">
-                    <hr>
+            <div class="px-4 col">
+                <div class="menu-line d-flex flex-row flex-wrap">
+                    <p class="name-dish">GARLIC SHRIMP & TONNARELLI PASTA</p>
+                    <div class="flex-grow-1">
+                        <hr>
+                    </div>
+                    <p class="price">€19.99</p>
+                    <p class="ingredients">Serrano ham, spinach, roasted red peppers, tomato, pil pil sauce
+                    </p>
                 </div>
-                <p class="price">€19.99</p>
-                <p class="ingredients">Serrano ham, spinach, roasted red peppers, tomato, pil pil sauce
-                </p>
-            </div>
-            <div class="menu-line d-flex flex-row flex-wrap">
-                <p class="name-dish">GARLIC SHRIMP & TONNARELLI PASTA</p>
-                <div class="flex-grow-1">
-                    <hr>
+                <div class="menu-line d-flex flex-row flex-wrap">
+                    <p class="name-dish">GARLIC SHRIMP & TONNARELLI PASTA</p>
+                    <div class="flex-grow-1">
+                        <hr>
+                    </div>
+                    <p class="price">€19.99</p>
+                    <p class="ingredients">Serrano ham, spinach, roasted red peppers, tomato, pil pil sauce
+                    </p>
                 </div>
-                <p class="price">€19.99</p>
-                <p class="ingredients">Serrano ham, spinach, roasted red peppers, tomato, pil pil sauce
-                </p>
-            </div>
-            <div class="menu-line d-flex flex-row flex-wrap">
-                <p class="name-dish">GARLIC SHRIMP & TONNARELLI PASTA</p>
-                <div class="flex-grow-1">
-                    <hr>
+                <div class="menu-line d-flex flex-row flex-wrap">
+                    <p class="name-dish">GARLIC SHRIMP & TONNARELLI PASTA</p>
+                    <div class="flex-grow-1">
+                        <hr>
+                    </div>
+                    <p class="price">€19.99</p>
+                    <p class="ingredients">Serrano ham, spinach, roasted red peppers, tomato, pil pil sauce
+                    </p>
                 </div>
-                <p class="price">€19.99</p>
-                <p class="ingredients">Serrano ham, spinach, roasted red peppers, tomato, pil pil sauce
-                </p>
-            </div>
-            <div class="menu-line d-flex flex-row flex-wrap">
-                <p class="name-dish">GARLIC SHRIMP & TONNARELLI PASTA</p>
-                <div class="flex-grow-1">
-                    <hr>
+                <div class="menu-line d-flex flex-row flex-wrap">
+                    <p class="name-dish">GARLIC SHRIMP & TONNARELLI PASTA</p>
+                    <div class="flex-grow-1">
+                        <hr>
+                    </div>
+                    <p class="price">€19.99</p>
+                    <p class="ingredients">Serrano ham, spinach, roasted red peppers, tomato, pil pil sauce
+                    </p>
                 </div>
-                <p class="price">€19.99</p>
-                <p class="ingredients">Serrano ham, spinach, roasted red peppers, tomato, pil pil sauce
-                </p>
-            </div>
-            <div class="menu-line d-flex flex-row flex-wrap">
-                <p class="name-dish">GARLIC SHRIMP & TONNARELLI PASTA</p>
-                <div class="flex-grow-1">
-                    <hr>
+                <div class="menu-line d-flex flex-row flex-wrap">
+                    <p class="name-dish">GARLIC SHRIMP & TONNARELLI PASTA</p>
+                    <div class="flex-grow-1">
+                        <hr>
+                    </div>
+                    <p class="price">€19.99</p>
+                    <p class="ingredients">Serrano ham, spinach, roasted red peppers, tomato, pil pil sauce
+                    </p>
                 </div>
-                <p class="price">€19.99</p>
-                <p class="ingredients">Serrano ham, spinach, roasted red peppers, tomato, pil pil sauce
-                </p>
             </div>
-        </div>
-        <div class="px-4 col">
-            <div class="menu-line d-flex flex-row flex-wrap">
-                <p class="name-dish">GARLIC SHRIMP & TONNARELLI PASTA</p>
-                <div class="flex-grow-1">
-                    <hr>
+            <div class="px-4 col">
+                <div class="menu-line d-flex flex-row flex-wrap">
+                    <p class="name-dish">GARLIC SHRIMP & TONNARELLI PASTA</p>
+                    <div class="flex-grow-1">
+                        <hr>
+                    </div>
+                    <p class="price">€19.99</p>
+                    <p class="ingredients">Serrano ham, spinach, roasted red peppers, tomato, pil pil sauce
+                    </p>
                 </div>
-                <p class="price">€19.99</p>
-                <p class="ingredients">Serrano ham, spinach, roasted red peppers, tomato, pil pil sauce
-                </p>
-            </div>
-            <div class="menu-line d-flex flex-row flex-wrap">
-                <p class="name-dish">GARLIC SHRIMP & TONNARELLI PASTA</p>
-                <div class="flex-grow-1">
-                    <hr>
+                <div class="menu-line d-flex flex-row flex-wrap">
+                    <p class="name-dish">GARLIC SHRIMP & TONNARELLI PASTA</p>
+                    <div class="flex-grow-1">
+                        <hr>
+                    </div>
+                    <p class="price">€19.99</p>
+                    <p class="ingredients">Serrano ham, spinach, roasted red peppers, tomato, pil pil sauce
+                    </p>
                 </div>
-                <p class="price">€19.99</p>
-                <p class="ingredients">Serrano ham, spinach, roasted red peppers, tomato, pil pil sauce
-                </p>
-            </div>
-            <div class="menu-line d-flex flex-row flex-wrap">
-                <p class="name-dish">GARLIC SHRIMP & TONNARELLI PASTA</p>
-                <div class="flex-grow-1">
-                    <hr>
+                <div class="menu-line d-flex flex-row flex-wrap">
+                    <p class="name-dish">GARLIC SHRIMP & TONNARELLI PASTA</p>
+                    <div class="flex-grow-1">
+                        <hr>
+                    </div>
+                    <p class="price">€19.99</p>
+                    <p class="ingredients">Serrano ham, spinach, roasted red peppers, tomato, pil pil sauce
+                    </p>
                 </div>
-                <p class="price">€19.99</p>
-                <p class="ingredients">Serrano ham, spinach, roasted red peppers, tomato, pil pil sauce
-                </p>
-            </div>
-            <div class="menu-line d-flex flex-row flex-wrap">
-                <p class="name-dish">GARLIC SHRIMP & TONNARELLI PASTA</p>
-                <div class="flex-grow-1">
-                    <hr>
+                <div class="menu-line d-flex flex-row flex-wrap">
+                    <p class="name-dish">GARLIC SHRIMP & TONNARELLI PASTA</p>
+                    <div class="flex-grow-1">
+                        <hr>
+                    </div>
+                    <p class="price">€19.99</p>
+                    <p class="ingredients">Serrano ham, spinach, roasted red peppers, tomato, pil pil sauce
+                    </p>
                 </div>
-                <p class="price">€19.99</p>
-                <p class="ingredients">Serrano ham, spinach, roasted red peppers, tomato, pil pil sauce
-                </p>
-            </div>
-            <div class="menu-line d-flex flex-row flex-wrap">
-                <p class="name-dish">GARLIC SHRIMP & TONNARELLI PASTA</p>
-                <div class="flex-grow-1">
-                    <hr>
+                <div class="menu-line d-flex flex-row flex-wrap">
+                    <p class="name-dish">GARLIC SHRIMP & TONNARELLI PASTA</p>
+                    <div class="flex-grow-1">
+                        <hr>
+                    </div>
+                    <p class="price">€19.99</p>
+                    <p class="ingredients">Serrano ham, spinach, roasted red peppers, tomato, pil pil sauce
+                    </p>
                 </div>
-                <p class="price">€19.99</p>
-                <p class="ingredients">Serrano ham, spinach, roasted red peppers, tomato, pil pil sauce
-                </p>
             </div>
-        </div>
-        <div class="view-menu-button col col-sm-12 item3 d-flex justify-content-center">
-            <button type="button" class="btn btn-danger p-3">view all menu</button>
-        </div>
+            <div class="view-menu-button col col-sm-12 item3 d-flex justify-content-center">
+                <button type="button" class="btn btn-danger p-3">view all menu</button>
+            </div>
         </div>
     </div>
     <!-- component gallery -->
     <div class="img-grid">
-            <div class="item1">
-                <img src="assets/images/grid-1.png">
-            </div>
-            <div class="item2">
-                <img src="assets/images/grid-2.png">
-            </div>
-            <div class="item3">
-                <img src="assets/images/grid-3.png">
-            </div>
-            <div class="item4">
-                <img src="assets/images/grid-4.png">
-            </div>
-            <div class="item5">
-                <img src="assets/images/grid-5.png">
-            </div>
+        <div class="item1">
+            <img src="assets/images/grid-1.png">
+        </div>
+        <div class="item2">
+            <img src="assets/images/grid-2.png">
+        </div>
+        <div class="item3">
+            <img src="assets/images/grid-3.png">
+        </div>
+        <div class="item4">
+            <img src="assets/images/grid-4.png">
+        </div>
+        <div class="item5">
+            <img src="assets/images/grid-5.png">
+        </div>
     </div>
 
+    <!-- component booking -->
+    <div class="booking">
+        <div class="booking-title">
+            <p class="original text-center">reservation</p>
+            <p class="blurry-text text-center">book a table</p>
+        </div>
+        <div class="booking-details d-flex flex-column flex-lg-row align-items-center">
+            <div class="maps">
+                <img src="assets/images/maps.jpg">
+            </div>
+            <div class="contact-form p-2">
+                <form>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="inputAddress2"
+                            placeholder="Apartment, studio, or floor">
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <input type="text" class="form-control" id="inputCity">
+                        </div>
+                        <div class="form-group col-md-4">
+                            <select id="inputState" class="form-control">
+                                <option selected>Choose...</option>
+                                <option>...</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-md-2">
+                            <label for="inputZip">Zip</label>
+                            <input type="text" class="form-control" id="inputZip">
+                        </div>
+                    </div>
+                    <div class="button-wrap">
+                        <button type="submit" class="btn btn-danger">reserve</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- component footer -->
+        <div class="page-footer d-flex flex-column flex-md-row justify-content-around align-items-center">
+            <div class="address text-center">
+                <p class="footer-title">address</p>
+                <p>The Company Name Inc.</p>
+                <p>8901 Marmora Road,</p>
+                <p>8901 Marmora Road,</p>
+            </div>
+            <div class="follow-us d-flex flex-column text-center">
+                <div>
+                    <p class="footer-title">follow us</p>
+                </div>
+                <div class="logo d-flex flex-row">
+                    <p>logo</p>
+                    <p>logo</p>
+                    <p>logo</p>
+                    <p>logo</p>
+                    <p>logo</p>
+                </div>
+            </div>
+            <div class="contact-us text-center">
+                <p class="footer-title">contact us</p>
+                <p>+1 800 603 6035</p>
+                <p>+1 800 603 6035</p>
+                <p>mail@demolink.org</p>
+            </div>
+        </div>
+
+        <!-- component nav-bar bottom -->
+
+        <div id = "nav-bar-bottom">
+            <ul class="nav d-flex justify-content-end flex-row">
+                <a class="navbar-brand mr-auto" href="#">Logo</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+
+
 </body>
+
 </html>

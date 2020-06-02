@@ -1,7 +1,4 @@
-.img {
 
-    
-}
 .hero-text {
     font-size: 5rem;
     text-transform: uppercase;
@@ -43,7 +40,6 @@ ul {
 
 .original {
     font-size: 3rem;
-   
 }
 
 .about-title {
@@ -121,3 +117,32 @@ ul {
 .item4 {
     grid-row: 2/span 2;
 }
+
+.booking-title {
+    position: relative;
+ }
+
+ .maps {
+     max-width: 50%;
+ }
+
+ .maps img {
+     max-width: 100%;
+ }
+
+ .button-wrap {
+     text-align: center;
+ }
+
+ .footer-title {
+     text-transform: uppercase;
+     font-weight: 700;
+     padding-top: 20px;
+     font-size: 20px;
+ }
+
+ .page-footer {
+     background-color: grey;
+ }
+
+ 
