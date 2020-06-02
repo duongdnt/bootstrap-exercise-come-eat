@@ -142,7 +142,30 @@ ul {
  }
 
  .page-footer {
-     background-color: grey;
+     background-color:#2f2a38;
+     color: white;
+     padding: 20px;
  }
 
- 
+ i.fab {
+     color: grey;
+     font-size: 18px;
+     padding: 0 10px;
+ }
+
+ i.fab:hover {
+     color: white;
+ }
+
+ .page-footer p:not(.footer-title) {
+     color: grey;
+     line-height: 10px;
+ }
+
+ #nav-bar-bottom {
+     background-color: black;
+ }
+
+ #nav-bar-bottom a {
+     color: white;
+ }
